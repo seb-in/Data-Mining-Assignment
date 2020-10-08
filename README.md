@@ -16,10 +16,11 @@ In this assignment, you will perform predictive analytics. You are given a CSV d
 * There are exactly 50 samples from each class in the last 100 samples to be predicted. 
 * Attributes are either categorical or numeric. Note that some attributes may appear numeric. You will need to decide whether to treat them as numeric or categorical and justify your action. 
 * The data is known to contain imperfections: 
-- There are missing/corrupted entries in the data set. 
-- There are duplicates, both instances and attributes. 
-- There are irrelevant attributes that do not contain any useful information useful for the classification task. 
-- The labelled data is imbalanced: there is a considerable difference between the number of samples from each class.
+    
+    - There are missing/corrupted entries in the data set. 
+    - There are duplicates, both instances and attributes. 
+    - There are irrelevant attributes that do not contain any useful information useful for the classification task. 
+    - The labelled data is imbalanced: there is a considerable difference between the number of samples from each class.
  
  Note that the attribute names and their values have been obfuscated. Any pre-processing and analytical steps to the data need to be based entirely on the values of the attributes. No domain-specific knowledge is available.
  Attempt the following: 
@@ -53,19 +54,19 @@ For this task, you will demonstrate convincingly how you select a suitable class
 
 * Cross validation: you will need to address the following 
 
-- How to evaluate the effectiveness of a classifier on the given data? 
-- How to address the issue of class imbalance in the training data? 
-- What is your choice of validation/cross-validation? 
-- For each classifier that you’ve selected, what is the validation/cross-validation performance? Give an interpretation of the confusion matrix.
-- For each classifier that you’ve selected, what is the estimated classification accuracy on the actual test data? 
+    - How to evaluate the effectiveness of a classifier on the given data? 
+    - How to address the issue of class imbalance in the training data? 
+    - What is your choice of validation/cross-validation? 
+    - For each classifier that you’ve selected, what is the validation/cross-validation performance? Give an interpretation of the confusion matrix.
+    - For each classifier that you’ve selected, what is the estimated classification accuracy on the actual test data? 
 
 * Classifier comparison: 
 
-- Compare the classification performance between difference classifiers. You need to select at least two (2) evaluation metrics, for example F-measure and classification accuracy, when comparing them. Your comparison must take into account the variation between different runs due to cross-validation.
-- Based on the comparison, select the best two (2) classification schemes for final prediction. Note that the two classification schemes can be one type of classifier, but with two different parameters. Clearly indicate the final choice of parameters if they are not the default values. 
+    - Compare the classification performance between difference classifiers. You need to select at least two (2) evaluation metrics, for example F-measure and classification accuracy, when comparing them. Your comparison must take into account the variation between different runs due to cross-validation.
+    - Based on the comparison, select the best two (2) classification schemes for final prediction. Note that the two classification schemes can be one type of classifier, but with two different parameters. Clearly indicate the final choice of parameters if they are not the default values. 
 
 * Prediction: 
 
-- Use the best two classification schemes that you have identified in the previous step to predict the missing class labels of the last 100 samples in the original data set. 
-- Provide your prediction in the report by creating a table, the first column is the sample ID, the second and third columns are the predicted class labels respectively. 
-- Produce a CSV file with the name predict.csv that contain your prediction in a similar format: the first column is the sample ID, the second and third columns are the predicted class labels. This file must be submitted electronically with the electronic copy of the report via Blackboard. An example of such a file is given below 
+    - Use the best two classification schemes that you have identified in the previous step to predict the missing class labels of the last 100 samples in the original data set. 
+    - Provide your prediction in the report by creating a table, the first column is the sample ID, the second and third columns are the predicted class labels respectively. 
+    - Produce a CSV file with the name predict.csv that contain your prediction in a similar format: the first column is the sample ID, the second and third columns are the predicted class labels. This file must be submitted electronically with the electronic copy of the report via Blackboard. An example of such a file is given below 
