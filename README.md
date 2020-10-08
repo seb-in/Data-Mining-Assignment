@@ -3,6 +3,11 @@
 [![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)](https://www.google.com/does_not_exist.jpg%20404)
 [![WIP](https://img.shields.io/badge/repo%20status-WIP-yellow)](https://www.google.com/does_not_exist.jpg%20404)
 
+[DP](https://img.shields.io/badge/-Data%20Preparation-blue)
+[DC](https://img.shields.io/badge/-Data%20Classification-orange)
+[P](https://img.shields.io/badge/-Prediction-red)
+
+
 ## Overview 
 
 In this assignment, you will solve a real-world data mining problem. This assignment requires you to understand the theory discussed in the workshops, conduct some research into the data mining problem to solve, and use the skills that you should have developed through completing practical exercises to perform various data mining tasks. 
