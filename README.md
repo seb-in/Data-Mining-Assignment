@@ -1,4 +1,4 @@
-<h1 align=center>Data Mining Assignment</h1>
+# Data Mining Assignment
 
 ![DP](https://img.shields.io/badge/-Data%20Preparation-blue)
 ![DC](https://img.shields.io/badge/-Data%20Classification-orange)
